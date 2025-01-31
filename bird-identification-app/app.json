@@ -1,0 +1,32 @@
+{
+    "expo": {
+        "name": "my-app",
+        "slug": "my-app",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "scheme": "birdidentification",
+        "userInterfaceStyle": "light",
+        "splash": {
+            "image": "./assets/cartoon-bird.jpg",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#ffffff"
+             
+            },
+            "newArchEnabled": true
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        },
+        "plugins": ["expo-router", "expo-font"]
+    }
+}
